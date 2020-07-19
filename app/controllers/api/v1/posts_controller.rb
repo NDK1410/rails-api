@@ -11,13 +11,9 @@ module Api::V1
       render json: @post, status: :ok
     end
 
-    def update
-      @post.update post_params
-    end
+    def update; end
 
-    def create
-      Post.create post_params
-    end
+    def create; end
 
     private
 
